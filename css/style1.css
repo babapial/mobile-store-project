@@ -16,17 +16,66 @@ header
     width: 90%;
     margin: 50px auto ;
 }
-header .btn
+.btn
 {
     background-color:rgb(54, 88, 226);
     color: aliceblue;
     padding: 15px 20px;
     border-radius: 10px;
+    border:none;
 }
 
-header .btn:hover
+.btn:hover
 {
     background-color:rgb(50, 50, 221);
     cursor: pointer;
     transition: 0.8s;
+}
+
+#highlight-section
+{
+   border: 0px solid black;
+   width:70%;
+   margin: 0 auto
+}
+
+#highlight-section >h2
+{
+   border: 0px solid rgb(173, 55, 55);
+   font-size: 50px;
+   font-weight: 800;
+   text-align: center;
+   margin-bottom: 30px;
+   text-shadow: 2px 2px 2px rgb(238, 139, 139);
+}
+
+
+/* .highlight-text{
+    margin-bottom:30px;
+    background-color: aqua;
+} */
+
+#highlight-section >p
+{  
+    border: 0px red solid;
+    width: 50%;
+    color:rgb(112, 104, 104);
+    text-align: center;
+    margin-bottom:30px;
+    margin: 0 auto ;
+}
+
+.button-now
+{
+    display: flex;
+    margin-top: 30px;
+    justify-content:center;
+}
+
+#cover-image
+{
+    border: 0px red solid;
+    margin-top: 40px;
+    width: 70%;
+    margin:20px auto;
 }
